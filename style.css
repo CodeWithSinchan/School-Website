@@ -139,7 +139,11 @@ footer {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.219);
 }
 
-#MissionVision,#Gallery,#contactus,.afford {
+#MissionVision,
+#Gallery,
+#contactus,
+#admission,
+.afford {
     font-size: 35px;
     text-align: center;
     font-weight: 700;
@@ -154,32 +158,95 @@ footer {
 }
 
 iframe {
-    margin-bottom:20px ;
+    margin-bottom: 20px;
     border-radius: 20px;
 }
 
-.logo1{
+.logo1 {
     flex-direction: column;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
 }
-.phone{
+
+.phone {
     display: flex;
     flex-direction: column;
 }
 
-.location{
+.location {
     display: flex;
     justify-content: center;
 }
 
-.edua{
+.edua {
     text-align: center;
     font-size: 21px;
     margin: 20px;
+}
+
+#contactus,
+#MissionVision,
+#admission,
+#Gallery {
+    scroll-margin-top: 170px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(25, 96, 226);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
 }
